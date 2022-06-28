@@ -1,0 +1,172 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Sort Products by Name/Price",
+    "line": 1,
+    "id": "sort-products-by-name/price",
+    "tags": [],
+    "uri": "sorting.feature",
+    "elements": [
+      {
+        "id": "sort-products-by-name/price;check-sorting-option",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Check sorting option",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have successfully logged in as a standard user",
+            "result": {
+              "status": "passed",
+              "duration": 4288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on the Sort button",
+            "result": {
+              "status": "passed",
+              "duration": 473000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "option"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Name (A to Z)"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Name (Z to A)"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Price (low to high)"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Price (high to low)"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the following sorting options:",
+            "result": {
+              "status": "passed",
+              "duration": 231000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sort-products-by-name/price;sort-items-by-name-(z-a)",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Sort items by name (Z-A)",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have successfully logged in as a standard user",
+            "result": {
+              "status": "passed",
+              "duration": 1691000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I select the \"Name (Z to A)\" sorting option",
+            "result": {
+              "status": "passed",
+              "duration": 335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the first product should be \"Test.allTheThings() T-Shirt (Red)\"",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the last product should be: \"Sauce Labs Backpack\"",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "sort-products-by-name/price;sort-item-by-price-(low-to-high)",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Sort item by price (low to high)",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have successfully logged in as a standard user",
+            "result": {
+              "status": "passed",
+              "duration": 1212000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I select the \"Price (low to high)\" sorting option",
+            "result": {
+              "status": "passed",
+              "duration": 326000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the products should be sorted by price",
+            "result": {
+              "status": "passed",
+              "duration": 387000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
