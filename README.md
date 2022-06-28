@@ -1,5 +1,10 @@
 # Cypress-CucumberTask
 
+# NOTE!:
+This project is written on Cypress version 7.3.0. I you have a newer version installed on your machine you need to execute the following command:
+```bash
+npm install cypress@7.3.0
+```
 
 ## Technology
 Cypress, Cucumber, Javascript
@@ -66,10 +71,4 @@ Expand each statement to see the commands executes
  ![My Image](https://user-images.githubusercontent.com/95483945/175565111-5214e99c-50d3-41cd-939e-b50f711885c9.png)
 
 
-
-NOTE:
-This project is written on Cypress version 7.3.0. I you have a newer version installed on your machine you need to execute the following command:
-```bash
-npm install cypress@7.3.0
-```
 
