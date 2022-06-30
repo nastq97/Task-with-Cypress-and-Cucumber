@@ -46,6 +46,11 @@ Use the package manager npm to install dependencies:
 npm install
 ```
 
+Install Cucumber Preprocessor
+```bash
+npm install --save-dev cypress-cucumber-preprocessor
+```
+
 Run the API automation tests:
 ```bash
 npx cypress open
